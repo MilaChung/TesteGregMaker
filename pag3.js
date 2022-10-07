@@ -58,9 +58,8 @@ function tocouTecla2(){
 }
 
 function pararTodos(){
-    for(let audio=1; audio>2; audio++){
-        document.getElementById("audio"+audio).pause();
-    }
+    document.getElementById("audio1").pause();
+    document.getElementById("audio2").pause();
 }
 
 function voltar() {
